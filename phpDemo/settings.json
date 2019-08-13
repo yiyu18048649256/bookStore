@@ -1,0 +1,4 @@
+{
+  "typescript.check.npmIsInstalled": false,
+  "editor.formatOnSave": true
+}

@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB",
+    "Microsoft YaHei", Arial, sans-serif;
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.top {
+  width: 100%;
+  height: 2.5rem;
+  background-color: #fafafa;
+}
+
+.top-box {
+  width: 60%;
+  height: 100%;
+  margin: auto;
+}
+
+.top-box a {
+  color: #555;
+}
+
+.top-box-l {
+  width: 3.5%;
+  height: 50%;
+  float: right;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0.625rem;
+  font-size: 0.75rem;
+  padding-right: 1.875rem;
+}
+
+.top-box-r {
+  width: 6%;
+  height: 50%;
+  float: right;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0.625rem;
+  font-size: 0.75rem;
+}
+
+.logo {
+  width: 60%;
+  height: 7.5rem;
+
+  margin: auto;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.logo-img {
+  width: 18.75rem;
+  height: 100%;
+}
+
+.logo-img img {
+  height: 100%;
+}
+
+.logo-text {
+  width: 30%;
+  font-size: 1.875rem;
+  color: #3d9af5;
+  line-height: 7.8125rem;
+}
+.reg {
+  width: 60%;
+  height: 31.25rem;
+  margin: auto;
+}
+.reg-text {
+  width: 100%;
+  height: 2.8125rem;
+  border-bottom: 1px solid #555;
+  display: flex;
+  justify-content: center;
+}
+.reg-text-l {
+  font-size: 1.875rem;
+  height: 100%;
+  width: 35%;
+  text-align: right;
+  color: red;
+}
+
+.reg-text-r {
+  font-size: 1rem;
+  height: 100%;
+  width: 23%;
+  text-align: center;
+  margin-top: 2%;
+  color: #f6764b;
+}
+.reg-box {
+  width: 50%;
+  height: 75%;
+  margin: 1% auto;
+}
+.reg-box i {
+  width: 3.125rem;
+  font-size: 0.5rem;
+  color: red;
+  display: block;
+}
+.reg-box-text {
+  width: 100%;
+  height: 100%;
+  text-align: right;
+  font-size: 1.375rem;
+  margin-top: 8%;
+  /* line-height: 20px; */
+  display: flex;
+  justify-content: flex-end;
+}
+.reg-box input {
+  width: 60%;
+  height: 2.1875rem;
+  border: 1px solid #555;
+  font-size: 1.25rem;
+}
+
+.btn_zhuce {
+  width: 35%;
+  height: 15%;
+  margin: 5% auto;
+  margin-left: 40%;
+  text-align: center;
+  font-size: 2rem;
+  background-color: red;
+  border-radius: 1rem;
+  color: white;
+}
+
+.bottom {
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background: #f5f5f5;
+  margin-top: 1%;
+}
+
+.bottom-img {
+  width: 60%;
+  margin: auto;
+}
+.bottom-img img {
+  width: 100%;
+}
+.bottom-on {
+  width: 60%;
+  margin: 3% auto;
+}

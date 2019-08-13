@@ -1,0 +1,15 @@
+<?php
+// session 存值并匹配用户输入值
+
+if (isset($_REQUEST['authcode'])) {
+session_start();
+if (strtolower($_REQUEST['authcode']) == $_SESSION['authcode']) {//strtolower转化为小写的函数
+echo "<script>alert('输入正确！');<script>";
+# code...
+}
+else {
+ echo "输入错误！";
+ }
+exit();
+}
+?>
